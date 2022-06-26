@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import CustomRouter from './services/customRouter';
 import '@blueprintjs/core/lib/css/blueprint.css';
+import { CustomRouter } from './services/customRouter';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

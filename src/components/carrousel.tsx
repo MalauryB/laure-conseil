@@ -5,18 +5,17 @@ import React from "react";
 
 export type CarrouselProps = {
     images: string[],
-    size: number
 }
-const Carrousel: React.FC <CarrouselProps>  = ({images, size}) => {
+const Carrousel: React.FC <CarrouselProps>  = ({images}) => {
 
     return(
         <div>
-            <div className="flex flex-row overflow-x-scroll w-[700px]">
+            <div className="flex flex-row overflow-x-scroll lg:w-[700px] md:w-[500px] w-[400px]">
                 {images.map(url => 
-                    <input className={`h-[${size}px] mr-4 object-cover rounded-md`} type="image" src={url} /> 
+                    <input className="h-[300px] mr-4 object-cover rounded-md" type="image" src={url} /> 
                 )}
             </div>
-            <div className="h-1 mt-3 bg-white w-[700px]"/>
+            <div className="h-1 mt-3 bg-white lg:w-[700px] md:w-[500px]  w-[400px]"/>
         </div>
     );
 }
