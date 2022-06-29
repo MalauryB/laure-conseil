@@ -3,9 +3,9 @@ import React from "react";
 export default function EnsavoirPlus(){
     return(
         <div className="flex justify-center">
-            <div className="flex flex-row mt-14 ml-10 mr-10 lg:w-[1280px] w-[600px]">
-                <div className="flex flex-col w-1/2 mr-10 mt-10">
-                    <div className="text-2xl mb-14">Mon parcours, mon métier</div>
+            <div className="flex flex-col lg:flex-row mt-10 lg:mt-14 ml-10 sm:mr-10 lg:w-[1280px]">
+                <div className="flex sm:ml-10 flex-col lg:w-1/2 mr-10 mt-10">
+                    <div className="text-2xl mb-10 lg:mb-14">Mon parcours, mon métier</div>
                     <div className="text-lg mb-6">
                     Thérapeute depuis plus d'une dizaine d'années, j'ai accompagné des centaines
                     de patients dans la résolution de leurs problèmes.<br/><br/>
@@ -27,11 +27,13 @@ export default function EnsavoirPlus(){
                     qui vous aidera à vous reconnecter avec vous-même, avec le monde et avec votre
                     entourage.
                     </div>
-                    <button className="xl:ml-0 ml-10 mt-6 bg-brown-click w-80 h-14 flex justify-center items-center rounded-md">
-                        <div className="text-white text-lg no-underline">Demander à être rappelé.e</div>
-                    </button>
+                    <div className="flex lg:justify-start justify-center">
+                        <button className="mb-10 xl:ml-0 lg:ml-10 lg:mt-6 bg-brown-click w-80 h-14 flex justify-center items-center rounded-md">
+                            <div className="text-white text-lg no-underline">Demander à être rappelé.e</div>
+                        </button>
+                    </div>
                 </div>
-                <input className="w-1/2 h-[750px] object-contain rounded-xl" type="image" src="assets/img/laure-portrait.jpg"/>
+                <input className="mr-10 mb-10 lg:w-1/2 h-[450px] sm:h-[750px] object-contain rounded-xl" type="image" src="assets/img/laure-portrait.jpg"/>
             </div>
         </div>
     )
