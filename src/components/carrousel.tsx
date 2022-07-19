@@ -10,12 +10,12 @@ const Carrousel: React.FC <CarrouselProps>  = ({images}) => {
 
     return(
         <div>
-            <div className="flex flex-row overflow-x-scroll lg:w-[700px] md:w-[500px] w-[400px]">
+            <div className="flex flex-row overflow-x-scroll xl:w-[700px] lg:w-[950px] md:w-[700px] sm:w-[550px] w-[300px]">
                 {images.map(url => 
                     <input className="h-[300px] mr-4 object-cover rounded-md" type="image" src={url} /> 
                 )}
             </div>
-            <div className="h-1 mt-3 bg-white lg:w-[700px] md:w-[500px]  w-[400px]"/>
+            <div className="h-1 mt-3 bg-white xl:w-[700px] lg:w-[950px] md:w-[700px] sm:w-[550px] w-[300px]"/>
         </div>
     );
 }

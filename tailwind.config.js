@@ -11,7 +11,8 @@ module.exports = {
       'brown-click': '#C29077',
       'general': '#ECECEB',
       'white': '#FFFFFF',
-      'card': '#F8F8F5'
+      'card': '#F8F8F5',
+      'gray': '#D1D5DB'
     },
     extend: {},
   },

@@ -5,3 +5,8 @@
 html {
     background-color: #ECECEB;
 }
+
+.bp4-input {
+    box-shadow: none !important;
+    font-size: 16px !important;
+}

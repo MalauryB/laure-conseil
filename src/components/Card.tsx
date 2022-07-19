@@ -9,7 +9,7 @@ export type CardProps = {
 const Card: React.FC <CardProps> = ({src, title, price, detailButtonDisplay}) => {
 
     return(
-        <div className="mb-8 ml-10 rounded-xl bg-card 2xl:w-[400px] sm:w-[350px] w-[300px] p-6 text-black">
+        <div className="mb-8 rounded-xl bg-card 2xl:w-[400px] sm:w-[350px] w-[300px] p-6 text-black">
             <input className="w-full h-80 object-cover rounded-xl focus:outline-0" type="image" src={src} />
             <div className="flex flex-row mt-4">
                 <div>

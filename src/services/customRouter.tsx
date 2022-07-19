@@ -1,4 +1,5 @@
-import React, { useCallback, useState } from "react";
+import { Position, Toast, Toaster } from "@blueprintjs/core";
+import React, { useCallback, useRef, useState } from "react";
 import {
   BrowserRouter as Router,
   Route,
@@ -11,27 +12,46 @@ import Home from "../scenes/home/home";
 
 
 export const FormContext =  React.createContext({
-  displayForm: true,
-  toggledForm: () => {
-  }
+  displayForm: false,
+  toggledForm: () => {},
+  displayTarif: false,
+  goToTarif: (value:boolean) => {},
+  displayInfoBullEnvoiMeassage: (value: boolean) => {}
 });
 
 export function CustomRouter() {
 
-  const [displayForm, setDisplayTheme] = useState(true);
+  const [displayForm, setDisplayForm] = useState(false);
+  const [displayTarif, setDisplayTarif] = useState(false);
   const toggledForm = useCallback(function() {
-    setDisplayTheme(!displayForm)
-  }, []);
+    setDisplayForm(!displayForm)
+  }, [displayForm]);
+  const goToTarif = useCallback(function(value:boolean) {
+    setDisplayTarif(value);
+  },  [displayTarif])
+
+  const [displayInfoBullEnvoiMessage, setDisplayInfoBullEnvoiMessage] = useState(true);
+  const displayInfoBullEnvoiMeassage = useCallback(function() {
+    setDisplayInfoBullEnvoiMessage(true);
+  },[displayInfoBullEnvoiMessage])
 
   let currentStateForm = { 
     displayForm: displayForm,
-    toggledForm: toggledForm
+    toggledForm: toggledForm,
+    displayTarif: displayTarif,
+    goToTarif: goToTarif,
+    displayInfoBullEnvoiMeassage: displayInfoBullEnvoiMeassage
   }
 
   return (
       <Router>
         <FormContext.Provider value={currentStateForm}>
           <CustomNavbar></CustomNavbar>
+          { displayInfoBullEnvoiMessage ? 
+          <Toaster position={Position.TOP}>
+              <Toast onDismiss={() => {setDisplayInfoBullEnvoiMessage(false)}} message="Votre message a bien été envoyé." className="text-lime-800" timeout={5000}/>
+          </Toaster>
+          : "" }
           <ContactForm></ContactForm>
           <Routes>
             <Route path="/" element={<Home goToTarifs={false} idContentTarifDetails=""/>}></Route>

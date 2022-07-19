@@ -5,7 +5,7 @@ import Card from "../../components/card";
 export default function Tarif() {
 
     return (
-        <div className="flex md:flex-row flex-col">
+        <div className="flex flex-wrap flex-row xl:justify-between justify-center">
             <Link className="!no-underline" to="/tarifs/individuelle">
                 <Card src="/assets/img/solo.png" title="Individuelle" price={80} detailButtonDisplay={true} />
             </Link>
@@ -17,5 +17,6 @@ export default function Tarif() {
             </Link>
             
         </div>
+        
     );
 }
