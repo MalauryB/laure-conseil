@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
+import { FormContext } from "../../services/customRouter";
 
 export default function EnsavoirPlus(){
+
+    const infoForm = useContext(FormContext);
+    
     return(
         <div className="flex justify-center mt-10 xl:mt-0">
             <div className="flex flex-col lg:flex-row mt-10 lg:mt-14 ml-10 sm:mr-10 lg:w-[1280px]">
@@ -28,7 +32,7 @@ export default function EnsavoirPlus(){
                     entourage.
                     </div>
                     <div className="flex lg:justify-start justify-center">
-                        <button className="mb-10 xl:ml-0 lg:ml-10 mt-10 bg-brown-click w-80 h-14 flex justify-center items-center rounded-md">
+                        <button  onClick={infoForm.toggledForm} className="mb-10 xl:ml-0 lg:ml-10 mt-10 bg-brown-click w-80 h-14 flex justify-center items-center rounded-md">
                             <div className="text-white text-lg no-underline">Demander à être rappelé.e</div>
                         </button>
                     </div>

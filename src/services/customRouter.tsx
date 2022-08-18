@@ -7,6 +7,8 @@ import {
 } from "react-router-dom";
 import ContactForm from "../components/contactForm";
 import CustomNavbar from "../components/customNavbar";
+import Footer from "../components/footer";
+import Cgv from "../scenes/cgv";
 import EnsavoirPlus from "../scenes/home/ensavoirplus";
 import Home from "../scenes/home/home";
 
@@ -60,8 +62,10 @@ export function CustomRouter() {
             <Route path="/tarifs/individuelle" element={<Home goToTarifs={true} idContentTarifDetails="SCEANCE_INDIVIDUELLE"/>}></Route>
             <Route path="/tarifs/couple" element={<Home goToTarifs={true} idContentTarifDetails="SCEANCE_COUPLE"/>}></Route>
             <Route path="/tarifs/famille" element={<Home goToTarifs={true} idContentTarifDetails="SCEANCE_FAMILIAL"/>}></Route>
+            <Route path="/conditionsgeneralesdeventes" element={<Cgv/>}></Route>
           </Routes>
         </FormContext.Provider>
+        <Footer></Footer>
       </Router>
   );
 }

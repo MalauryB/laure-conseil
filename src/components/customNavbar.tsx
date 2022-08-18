@@ -77,7 +77,7 @@ export default function CustomNavbar() {
                     <div>
                         <input type="image" className="w-[50px] float-right mr-8 mt-8" onClick={toggleNavbar} src="/assets/img/close.png" />
                     
-                        <div className="flex ml-20 items-center mt-52">
+                        <div className="flex ml-10 md:ml-20 items-center mt-52">
                             <div className="flex flex-col">
                                 <Link className={ location === "/" ? linkMiddleNavabarSelected  : linkMiddleNavbar } onClick={() => setLocation("/")} to="/">L'essentiel</Link>
                                 <Link className={ location === "/tarifs" ? linkMiddleNavabarSelected  : linkMiddleNavbar } onClick={() => {
@@ -85,9 +85,9 @@ export default function CustomNavbar() {
                                     infoForm.goToTarif(true);
                                     }} to="/">Tarifs</Link>
                                 <Link className={ location === "/temoignages" ? linkMiddleNavabarSelected : linkMiddleNavbar } onClick={() => setLocation("/ensavoirplus")} to="/ensavoirplus">En savoir plus</Link>
-                                <div className="mt-8 bg-brown-click w-72 h-12 flex justify-center items-center rounded">
+                                <button  onClick={infoForm.toggledForm} className="mt-8 bg-brown-click w-72 h-12 flex justify-center items-center rounded">
                                     <div className="text-white font-cali text-xl no-underline">Demander à être rappelé.e</div>
-                                </div>
+                                </button>
                             </div>
                         </div>
                     </div>

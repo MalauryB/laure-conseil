@@ -15,7 +15,6 @@ const Carrousel: React.FC <CarrouselProps>  = ({images}) => {
                     <input className="h-[300px] mr-4 object-cover rounded-md" type="image" src={url} /> 
                 )}
             </div>
-            <div className="h-1 mt-3 bg-white xl:w-[700px] lg:w-[950px] md:w-[700px] sm:w-[550px] w-[300px]"/>
         </div>
     );
 }

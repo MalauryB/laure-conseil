@@ -55,12 +55,12 @@ function ContactForm(){
                 heure: form.heure,
             }
             console.log(templateParams);
-            /**emailjs.send(
+            emailjs.send(
                 'gmail',
                 'template_li5dbtp',
                 templateParams,
                 'user_azEOdhu0mi0nuNIMqjEW1'
-            )**/
+            )
             resetForm();
             infoForm.toggledForm();
             infoForm.displayInfoBullEnvoiMeassage(true);
