@@ -32,7 +32,7 @@ export function CustomRouter() {
     setDisplayTarif(value);
   },  [displayTarif])
 
-  const [displayInfoBullEnvoiMessage, setDisplayInfoBullEnvoiMessage] = useState(true);
+  const [displayInfoBullEnvoiMessage, setDisplayInfoBullEnvoiMessage] = useState(false);
   const displayInfoBullEnvoiMeassage = useCallback(function() {
     setDisplayInfoBullEnvoiMessage(true);
   },[displayInfoBullEnvoiMessage])
@@ -49,6 +49,7 @@ export function CustomRouter() {
       <Router>
         <FormContext.Provider value={currentStateForm}>
           <CustomNavbar></CustomNavbar>
+          <div className="h-[50px]"></div>
           { displayInfoBullEnvoiMessage ? 
           <Toaster position={Position.TOP}>
               <Toast onDismiss={() => {setDisplayInfoBullEnvoiMessage(false)}} message="Votre message a bien été envoyé." className="text-lime-800" timeout={5000}/>

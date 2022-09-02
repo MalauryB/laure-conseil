@@ -32,8 +32,8 @@ export default function CustomNavbar() {
     console.log(location)
     /** Fin listening location */  
 
-    const linkNavbar="text-xl mr-7 font-cali tracking-wide text-black no-underline";
-    const linkNavbarSelected="text-xl mr-7 font-cali tracking-wide text-amber-700 no-underline";
+    const linkNavbar="text-2xl mr-7 font-cali tracking-wide text-black no-underline";
+    const linkNavbarSelected="text-2xl mr-7 font-cali tracking-wide text-amber-700 no-underline";
 
     /** Début Partitiions Content */
 
@@ -47,11 +47,11 @@ export default function CustomNavbar() {
                 <Link className="!no-underline" to="/">
                     <input className="w-[50px] ml-4 mr-4" type="image" src="/assets/img/logo_black.png"/>
                 </Link>
-                <p className="text-xl font-cali tracking-wide">Laure Souchard Lespinas</p>
+                <p className="text-2xl font-cali tracking-wide">Laure Souchard Lespinas</p>
             </Navbar.Group>
             <Navbar.Group align={Alignment.RIGHT}> 
                 <div className="mr-4">
-                    <Link className={ location === "/" ?  linkNavbarSelected : linkNavbar } onClick={() => setLocation("/")}  to="/">L'essentiel</Link>
+                    <Link className={ location === "/" ?  linkNavbarSelected : linkNavbar } onClick={() => setLocation("/")}  to="/">Accueil</Link>
                     <Link className={ location === "/tarifs" ? linkNavbarSelected  : linkNavbar } onClick={() => {
                         setLocation("/tarifs");
                         infoForm.goToTarif(true);
@@ -79,7 +79,7 @@ export default function CustomNavbar() {
                     
                         <div className="flex ml-10 md:ml-20 items-center mt-52">
                             <div className="flex flex-col">
-                                <Link className={ location === "/" ? linkMiddleNavabarSelected  : linkMiddleNavbar } onClick={() => setLocation("/")} to="/">L'essentiel</Link>
+                                <Link className={ location === "/" ? linkMiddleNavabarSelected  : linkMiddleNavbar } onClick={() => setLocation("/")} to="/">Accueil</Link>
                                 <Link className={ location === "/tarifs" ? linkMiddleNavabarSelected  : linkMiddleNavbar } onClick={() => {
                                     setLocation("/tarifs");
                                     infoForm.goToTarif(true);
@@ -106,7 +106,7 @@ export default function CustomNavbar() {
     }
 
     return(
-        <Navbar className="bg-general shadow-none">
+        <Navbar className="bg-general shadow-none fixed h-[100px]">
             { content }
         </Navbar>
     );

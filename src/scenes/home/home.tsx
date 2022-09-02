@@ -1,5 +1,5 @@
 import React, { useRef, useContext, useEffect } from "react";
-import Essentiel from "./essentiel";
+import Accueil from "./accueil";
 import Tarif from "./tarif";
 import TarifDetails from "./tarifDetails";
 import {contents} from './contents';
@@ -31,11 +31,11 @@ const Home: React.FC <HomeProps> = ({goToTarifs, idContentTarifDetails}) => {
     }
     
     return (
-        <div className="flex justify-center">
-            <div className="font-cali flex flex-col ml-8 mr-8 xl:w-[1280px] w-[1000px] xl:ml-0 ml-10">
-                <Essentiel></Essentiel>
-                <div ref={sectionTarifs} className="mt-20">
-                    <div className="text-xl mb-10">Trouver la bonne scéance</div>
+        <div className="flex justify-center mt-10 mb-20">
+            <div className="font-cali flex w-full 2xl:w-11/12 flex-col ml-8 mr-8 ml-10">
+                <Accueil></Accueil>
+                <div ref={sectionTarifs} className="mt-32">
+                    <div className="text-4xl mb-12">Trouver la bonne scéance</div>
                     {idContentTarifDetails === "" ? <Tarif/> : 
                         <TarifDetails content={getContent()[0].content} 
                                         mainCard={getContent()[0].mainCard} 

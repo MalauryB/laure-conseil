@@ -72,7 +72,7 @@ function ContactForm(){
 
 
     const validButtonStyle = "border border-amber-700 border-solid rounded-md flex justify-center items-center h-8 w-2/3 lg:w-1/5 mt-6 lg:mt-10 mr-4"
-    const disbledValidButtonStyle = "bg-gray " + validButtonStyle;
+    const disbledValidButtonStyle = "bg-brown-click " + validButtonStyle;
     const basicForm = (
         <div className="mr-12">
             <div className="text-xl lg:mt-20 mt-8">À quel numéro souhaitez-vous être rappelé.e ?</div>
@@ -90,7 +90,6 @@ function ContactForm(){
         </div> 
     );
 
-    const FILTER_OPTIONS = ["8h00", "9h00", "10h00", "11h00", "12h00", "13h00", "14h00", "15h00", "16h00", "17h00", "18h00", "19h00", "20h00"];
     const specificForm = (
         <div className="mr-12">
             <div className="text-sm mt-6 lg:mt-10">Précisez le jour et l'heure qui vous arrangent, ainsi que le numéro de téléphone auquel vous souhaitez être rappelé.e</div>

@@ -14,6 +14,14 @@ module.exports = {
       'card': '#F8F8F5',
       'gray': '#D1D5DB'
     },
+    screens: {
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+      '3xl': '1800px',
+    },
     extend: {},
   },
   plugins: [],

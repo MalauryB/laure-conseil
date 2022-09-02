@@ -36,33 +36,36 @@ const TarifDetails: React.FC<TarifDetailsProps> = ({content, mainCard, secondCar
     const infoForm = useContext(FormContext);
 
     let textPart = (
-        <div className="bg-card rounded-xl p-8 lg:ml-10">
-            <div className="text-xl mb-3 ">{content.mainTitle}</div>
-            <div className="text-sm mb-6">{content.introductionLittleSentence}</div>
+        <div className="bg-card rounded-xl p-8 lg:ml-10 2xl:w-2/3">
+            <div className="text-2xl mb-3 text-amber-800">{content.mainTitle}</div>
+            <div className="text-lg bg-white rounded-xl p-4 mb-4">
+                <div className="ml-4">{content.introductionLittleSentence}</div>
+            </div>
+            <div className="text-xl mb-3">{content.titleWhiteCard}</div>
             <div className="bg-white rounded-xl p-4">
-                <div className="text-lg mb-3">{content.titleWhiteCard}</div>
-                <div className="text-sm mb-4 ml-4">
+                <div className="text-lg ml-4">
                     {content.sentenceWhiteCardList.map( sentence => 
                         <div>- {sentence}</div>
                     )}
                 </div>
             </div>
             <div className="text-xl mb-3 mt-6">{content.secondTitle}</div>
-            <div className="text-sm mb-8 ">{content.secondText}</div>
+            <div className="bg-white rounded-xl p-4 mb-4">
+                <div className="text-lg ml-4">{content.secondText}</div>
+            </div>
+            
             <div className="text-xl mb-4">{content.thirdTitle}</div>
-            <div className="flex flex-row flex-wrap">
+            <div className="text-lg bg-white rounded-xl p-4">
                 {content.tagList.map( tag =>
-                    <div className="bg-white rounded-xl pt-2 pb-2 pr-8 pl-8 mr-2 mt-2">
-                        <div className="text-sm">{tag}</div>
-                    </div>
+                    <div className="ml-4">- {tag}</div>
                 )}
             </div>
         </div>
     )
 
     return (
-        <div className="">
-            <div className="flex lg:flex-row flex-col mb-10">
+        <div>
+            <div className="flex lg:flex-row lg:justify-between flex-col mb-10">
                 <div className="flex flex-col items-center">
                     <Card price={mainCard.price} src={mainCard.image} title={mainCard.title} detailButtonDisplay={false}></Card>
                     <button className="bg-brown-click w-[300px] h-10 flex justify-center items-center rounded-md mb-10" onClick={infoForm.toggledForm}>
