@@ -41,9 +41,9 @@ export default function Accueil() {
                     </h2>   
 
                     <h2 className="mt-6 text-xl">
-                        - Consultation individuelle: <span className="text-amber-700">70 €</span><br/>
-                        - Consultation en couple: <span className="text-amber-700">150 €</span><br/>
-                        - Consultation familial: <span className="text-amber-700">120 €</span>
+                        - Consultation individuelle: <span className="text-amber-700">80 €</span><br/>
+                        - Consultation en couple: <span className="text-amber-700">100 €</span><br/>
+                        - Consultation familial: <span className="text-amber-700">100 €</span>
                     </h2>
 
                     <button className="mt-8 xl:ml-0 bg-brown-click w-full lg:w-60 h-10 flex justify-center items-center rounded-md" onClick={infoForm.toggledForm}>

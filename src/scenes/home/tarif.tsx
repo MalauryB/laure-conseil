@@ -10,7 +10,7 @@ export default function Tarif() {
                 <Card src="/assets/img/solo.png" title="Individuelle" price={80} detailButtonDisplay={true} />
             </Link>
             <Link className="!no-underline" to="tarifs/couple">
-                <Card src="/assets/img/couple.png" title="Couple" price={120} detailButtonDisplay={true}/>
+                <Card src="/assets/img/couple.png" title="Couple" price={100} detailButtonDisplay={true}/>
             </Link>
             <Link className="!no-underline" to="tarifs/famille">
                 <Card src="/assets/img/famille.png" title="Famille" price={100} detailButtonDisplay={true}/>

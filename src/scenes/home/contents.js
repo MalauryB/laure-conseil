@@ -18,13 +18,13 @@ export const contents = [
             tagList: [
                 "Renouer",
                 "Prendre du recul",
-                "Se questionner",
+                "Trouver des réponses",
                 "S'aimer de nouveau"
             ]
         },
         mainCard: {
             title: "Couple",
-            price: 120,
+            price: 100,
             image: "/assets/img/couple.png"
         },
         secondCard:{
@@ -34,7 +34,7 @@ export const contents = [
         },
         thirdCard: {
             title: "Famille",
-            price: 80,
+            price: 100,
             image: "/assets/img/famille.png"
         }
     },
@@ -53,12 +53,13 @@ export const contents = [
                 "Après une séparation, je veux comprendre mon histoire"
             ],
             secondTitle: "N'attendez pas, prenez du temps pour résoudre vos soucis ...",
-            secondText: "Face à des événements dont on se sent la victime, nous pouvons nous sentir impuissant. Lors des moments de crise, nous répétons des schémas qui peuvent ne pas être les bons. La thérapie peut être un formidable tremplin pour nous comprendre.",
+            secondText: "Face à des événements dont nous sommes la victime, nous pouvons nous sentir impuissant. Lors des moments de crise, nous répétons des schémas qui peuvent ne pas être les bons. La thérapie peut être un formidable tremplin pour nous comprendre et pour y voir plus claire.",
             thirdTitle: "La thérapie individuelle peut permettre de :",
             tagList: [
                 "Sortir des comportements de répétitions",
                 "Identifier ses limites",
                 "S'aimer de nouveau",
+                "Y voir plus claire"
             ]
         },
         mainCard: {
@@ -68,12 +69,12 @@ export const contents = [
         },
         secondCard:{
             title: "Couple",
-            price: 120,
+            price: 100,
             image: "/assets/img/couple.png"
         },
         thirdCard: {
             title: "Famille",
-            price: 120,
+            price: 100,
             image: "/assets/img/famille.png"
         } 
     },
@@ -92,22 +93,22 @@ export const contents = [
                 "Un membre de famille va mal et cela entraine des conséquences sur d'autres membres"
             ],
             secondTitle: "N'attendez pas ...",
-            secondText: "Prendre soin des nos relations familiales nécessite parfois de consulter pour aborder des sujets tabous, traverser des conflits ou pour accepter de s'écouter. Le regard professionnel permet de libérer la parole.",
+            secondText: "Prendre soin des nos relations familiales nécessite parfois de consulter pour aborder des sujets tabous, traverser des conflits ou pour accepter de s'écouter. Un regard neutre permet de libérer la parole.",
             thirdTitle: "La thérapie familiale peut permettre de :",
             tagList: [
-                "Travailler sur le rôle de chacun",
+                "Trouver la place de chacun",
                 "Communiquer autour des sujets s'ensibles",
                 "S'aimer de nouveau",
             ]
         },
         mainCard: {
             title: "Famille",
-            price: 120,
+            price: 100,
             image: "/assets/img/famille.png"
         },
         secondCard:{
             title: "Couple",
-            price: 120,
+            price: 100,
             image: "/assets/img/couple.png"
         },
         thirdCard: {

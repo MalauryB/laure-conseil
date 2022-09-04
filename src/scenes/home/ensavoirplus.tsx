@@ -18,17 +18,14 @@ export default function EnsavoirPlus(){
                     J'ai à cœur de leur apporter de réels chemins de résolution à leur problématique,
                     par une écoute active et par l'exposition de différents points de vue sur la vie.<br/><br/>
 
-                    "Connais-toi toi-même et tu connaîtras l'Univers et les Dieux" Maxime du temple
-                    de Delphes<br/><br/>
-
                     L'un des buts les plus nobles de l'existence est d'abord d'apprendre à se connaitre,
                     en tant qu'individu ayant une conscience dans un monde qui peut parfois 
                     nous s'embler vide de sens. Un but si compliqué et qui ne s'atteint que 
                     par le dialogue. Le dialogue avec les autres, avec les choses et avec soi.<br/><br/>
 
-                    Il est bon, d'avoir une personne apte à  nous guider dans les moments. 
+                    Il est bon, d'avoir une personne apte à nous aider dans les moments compliqués. 
                     J'aime à croire que je peux être ce petit coup de pouce
-                    qui vous aidera à vous reconnecter avec vous-même, avec le monde et avec votre
+                    qui vous aidera à vous sentir mieux, avec vous-même, avec le monde et avec votre
                     entourage.
                     </div>
                     <div className="flex lg:justify-start justify-center">
