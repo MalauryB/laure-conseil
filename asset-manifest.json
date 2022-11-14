@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.9572f742.css",
-    "main.js": "/static/js/main.d12bc512.js",
-    "static/js/787.f0bab596.chunk.js": "/static/js/787.f0bab596.chunk.js",
-    "index.html": "/index.html",
-    "main.9572f742.css.map": "/static/css/main.9572f742.css.map",
-    "main.d12bc512.js.map": "/static/js/main.d12bc512.js.map",
-    "787.f0bab596.chunk.js.map": "/static/js/787.f0bab596.chunk.js.map"
+    "main.css": "/laure-conseil/static/css/main.9572f742.css",
+    "main.js": "/laure-conseil/static/js/main.c8eb523b.js",
+    "static/js/787.f0bab596.chunk.js": "/laure-conseil/static/js/787.f0bab596.chunk.js",
+    "index.html": "/laure-conseil/index.html",
+    "main.9572f742.css.map": "/laure-conseil/static/css/main.9572f742.css.map",
+    "main.c8eb523b.js.map": "/laure-conseil/static/js/main.c8eb523b.js.map",
+    "787.f0bab596.chunk.js.map": "/laure-conseil/static/js/787.f0bab596.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9572f742.css",
-    "static/js/main.d12bc512.js"
+    "static/js/main.c8eb523b.js"
   ]
 }
