@@ -20,7 +20,7 @@ export default function EnsavoirPlus(){
 
                     L'un des buts les plus nobles de l'existence est d'abord d'apprendre à se connaitre,
                     en tant qu'individu ayant une conscience dans un monde qui peut parfois 
-                    nous s'embler vide de sens. Un but si compliqué et qui ne s'atteint que 
+                    nous sembler vide de sens. Un but si compliqué et qui ne s'atteint que 
                     par le dialogue. Le dialogue avec les autres, avec les choses et avec soi.<br/><br/>
 
                     Il est bon, d'avoir une personne apte à nous aider dans les moments compliqués. 

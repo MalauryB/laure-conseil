@@ -92,7 +92,7 @@ function ContactForm(){
 
     const specificForm = (
         <div className="mr-12">
-            <div className="text-sm mt-6 lg:mt-10">Précisez le jour et l'heure qui vous arrangent, ainsi que le numéro de téléphone auquel vous souhaitez être rappelé.e</div>
+            <div className="text-sm mt-6 lg:mt-10">Précisez le jour et l'heure qui vous arrange, ainsi que le numéro de téléphone auquel vous souhaitez être rappelé.e</div>
             <div className=" w-5/6 lg:w-1/2">
                 <FormGroup className="lg:mt-8 mt-4 text-xl border-b-2">
                     <InputGroup value={form.phoneNumber} name="phoneNumber" onChange={formChange} className="mb-2" placeholder="* Téléphone"/>

@@ -60,7 +60,7 @@ export function CustomRouter() {
             <Route path="/" element={<Home goToTarifs={false} idContentTarifDetails=""/>}></Route>
             <Route path="/ensavoirplus" element={<EnsavoirPlus/>}></Route>
             <Route path="/tarifs" element={<Home goToTarifs={true} idContentTarifDetails=""/>}></Route>
-            <Route path="/tarifs/individuelle" element={<Home goToTarifs={true} idContentTarifDetails="SCEANCE_INDIVIDUELLE"/>}></Route>
+            <Route path="/tarifs/individuel" element={<Home goToTarifs={true} idContentTarifDetails="SCEANCE_INDIVIDUELLE"/>}></Route>
             <Route path="/tarifs/couple" element={<Home goToTarifs={true} idContentTarifDetails="SCEANCE_COUPLE"/>}></Route>
             <Route path="/tarifs/famille" element={<Home goToTarifs={true} idContentTarifDetails="SCEANCE_FAMILIAL"/>}></Route>
             <Route path="/conditionsgeneralesdeventes" element={<Cgv/>}></Route>

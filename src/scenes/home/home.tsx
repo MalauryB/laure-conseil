@@ -35,7 +35,7 @@ const Home: React.FC <HomeProps> = ({goToTarifs, idContentTarifDetails}) => {
             <div className="font-cali flex w-full 2xl:w-11/12 flex-col ml-8 mr-8 ml-10">
                 <Accueil></Accueil>
                 <div ref={sectionTarifs} className="mt-32">
-                    <div className="text-4xl mb-12">Trouver la bonne scéance</div>
+                    <div className="text-4xl mb-12">Trouver la bonne séance</div>
                     {idContentTarifDetails === "" ? <Tarif/> : 
                         <TarifDetails content={getContent()[0].content} 
                                         mainCard={getContent()[0].mainCard} 

@@ -42,7 +42,7 @@ export const contents = [
         id: "SCEANCE_INDIVIDUELLE",
         content: {
             mainTitle: "Vous songez à faire une thérapie individuelle ?  ",
-            introductionLittleSentence: "Mais vous demandez si cela est vraiment efficace ...",
+            introductionLittleSentence: "Mais vous vous demandez si cela est vraiment efficace ...",
             titleWhiteCard: "Il vous arrive régulièrement de penser ?",
             sentenceWhiteCardList: [
                 "Je suis perdu.e",
@@ -53,13 +53,13 @@ export const contents = [
                 "Après une séparation, je veux comprendre mon histoire"
             ],
             secondTitle: "N'attendez pas, prenez du temps pour résoudre vos soucis ...",
-            secondText: "Face à des événements dont nous sommes la victime, nous pouvons nous sentir impuissant. Lors des moments de crise, nous répétons des schémas qui peuvent ne pas être les bons. La thérapie peut être un formidable tremplin pour nous comprendre et pour y voir plus claire.",
+            secondText: "Face à des événements dont nous sommes la victime, nous pouvons nous sentir impuissant. Lors des moments de crise, nous répétons des schémas qui peuvent ne pas être les bons. La thérapie peut être un formidable tremplin pour nous comprendre et pour y voir plus clair.",
             thirdTitle: "La thérapie individuelle peut permettre de :",
             tagList: [
                 "Sortir des comportements de répétitions",
                 "Identifier ses limites",
                 "S'aimer de nouveau",
-                "Y voir plus claire"
+                "Y voir plus clair"
             ]
         },
         mainCard: {
@@ -82,12 +82,12 @@ export const contents = [
         id: "SCEANCE_FAMILIAL",
         content: {
             mainTitle: "Votre famille rencontre des difficultés, vous ne savez plus quoi faire",
-            introductionLittleSentence: "Vous avez peur que tout le monde ne veuille pas assister à la scéance",
+            introductionLittleSentence: "Vous avez peur que tout le monde ne veuille pas assister à la séance",
             titleWhiteCard: "Mais il vous arrive régulièrement de penser ?",
             sentenceWhiteCardList: [
                 "Nous traversons une crise à une étape importante de notre vie",
                 "Un de mes enfants présente un symptôme inquiétant (insomnie, drogue, trouble alimentaire, … )",
-                "Un de vos enfants ses sent mal et ne souhaite pas de thérapie individuelle",
+                "Un de vos enfants se sent mal et ne souhaite pas de thérapie individuelle",
                 "Votre famille est recomposée et rencontre des mésententes",
                 "Les relations entre générations sont difficiles (tabous, secret de famille, …)",
                 "Un membre de famille va mal et cela entraine des conséquences sur d'autres membres"
@@ -97,7 +97,7 @@ export const contents = [
             thirdTitle: "La thérapie familiale peut permettre de :",
             tagList: [
                 "Trouver la place de chacun",
-                "Communiquer autour des sujets s'ensibles",
+                "Communiquer autour des sujets sensibles",
                 "S'aimer de nouveau",
             ]
         },

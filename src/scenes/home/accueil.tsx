@@ -36,14 +36,14 @@ export default function Accueil() {
                     <h1 className="text-2xl mt-5">Prenons <span className="text-amber-700">vraiment</span> le temps d'en parler</h1>
                     
                     <h2 className="text-xl mt-6">
-                        Scéance à durée variable, pouvant aller jusqu'à <span className="text-amber-700">3 heures</span> (tarification fixe). <br/>
+                        Séance à durée variable, pouvant aller jusqu'à <span className="text-amber-700">3 heures</span> (tarification fixe). <br/>
                         En cabinet ou en visio-conférence.
                     </h2>   
 
                     <h2 className="mt-6 text-xl">
                         - Consultation individuelle: <span className="text-amber-700">80 €</span><br/>
                         - Consultation en couple: <span className="text-amber-700">100 €</span><br/>
-                        - Consultation familial: <span className="text-amber-700">100 €</span>
+                        - Consultation familialle: <span className="text-amber-700">100 €</span>
                     </h2>
 
                     <button className="mt-8 xl:ml-0 bg-brown-click w-full lg:w-60 h-10 flex justify-center items-center rounded-md" onClick={infoForm.toggledForm}>
@@ -60,7 +60,7 @@ export default function Accueil() {
                 <>
                     <div className="xl:mb-0 mb-6 flex-col h-28 flex bg-white 2xl:w-3/12 w-4/12 justify-center rounded-md">
                         <div className="ml-6">Du Lundi au Samedi</div>
-                        <div className="ml-6 mt-2">De <span className="text-amber-700">9h</span> à <span className="text-amber-700">23h</span></div>
+                        <div className="ml-6 mt-2">De <span className="text-amber-700">9h</span> à <span className="text-amber-700">20h</span></div>
                     </div> 
                     <div className="bg-white h-28 3xl:w-[1200px] 2xl:w-[1000px] xl:w-6/12 flex items-center justify-between rounded-md">
                         <div className="flex flex-row ml-6 mr-10">
@@ -96,7 +96,7 @@ export default function Accueil() {
                     <div className="bg-white mt-4 h-28 flex flex-col items-center justify-center rounded-md flex flex-row">
                         <div>
                             <div className="ml-6">Du Lundi au Samedi</div>
-                            <div className="ml-6 mt-2">De <span className="text-amber-700">9h</span> à <span className="text-amber-700">23h</span></div>
+                            <div className="ml-6 mt-2">De <span className="text-amber-700">9h</span> à <span className="text-amber-700">20h</span></div>
                         </div>
                     </div>
                 </> }
