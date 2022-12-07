@@ -7,8 +7,8 @@ function Cgv(){
             
             <div className="mt-4">
                 <p>Madame Laure Souchard Lespinas, thérapeute.</p>
-                <p>Tel : 06.95.60.15.81.</p>
-                <p>Site Internet : www.?.fr</p>
+                <p>Tel : 06.76.87.33.67.</p>
+                <p>Site Internet : www.laureconseil.com</p>
                 <p>N° SIRET : 522 271 675</p>
             </div>
             <p className="mt-6">Ces conditions de vente prévaudront sur toutes autres conditions générales ou particulières non expressément agréées par le vendeur. Le vendeur se réserve de pouvoir modifier ses conditions de vente à tout moment. Dans ce cas, les conditions applicables seront celles en vigueur à la date de la demande de l’acheteur.</p>

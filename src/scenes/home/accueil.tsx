@@ -71,11 +71,11 @@ export default function Accueil() {
                         <div className="flex flex-col">
                             <div className="flex flex-row">
                                 <input className="w-[20px] h-[20px] mt-1" type="image" src="/assets/img/phone.png" />
-                                <div className="ml-6">06.95.60.15.81</div>
+                                <div className="ml-6">06.76.87.33.67</div>
                             </div>
                             <div className="flex flex-row mr-20 mt-4">
                                 <input className="w-[20px] h-[20px] mt-1" type="image" src="/assets/img/mail.png" />
-                                <div className="ml-6">laure.conseil@gmail.com</div>
+                                <div className="ml-6">lauresouchardlespinas@gmail.com</div>
                             </div>
                         </div>    
                     </div>
@@ -87,11 +87,11 @@ export default function Accueil() {
                     </div>
                     <div className="bg-white mt-4 h-28 flex items-center justify-center rounded-md flex flex-row">
                         <input className="w-[20px] h-[20px]" type="image" src="/assets/img/phone.png" />
-                        <div className="ml-6">06.95.60.15.81</div>
+                        <div className="ml-6">06.76.87.33.67</div>
                     </div>
                     <div className="bg-white mt-4 h-28 flex items-center justify-center rounded-md flex flex-row">
                         <input className="w-[20px] h-[20px]" type="image" src="/assets/img/mail.png" />
-                        <div className="ml-6">laure.conseil@gmail.com</div>
+                        <div className="ml-6">lauresouchardlespinas@gmail.com</div>
                     </div>
                     <div className="bg-white mt-4 h-28 flex flex-col items-center justify-center rounded-md flex flex-row">
                         <div>
