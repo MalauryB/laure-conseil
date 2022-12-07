@@ -14,7 +14,7 @@ export default function EnsavoirPlus(){
                     Thérapeute depuis plus d'une dizaine d'années, j'ai accompagné des centaines
                     de patients dans la résolution de leurs problèmes.<br/><br/>
 
-                    Mes patients se sentent en sécurité dans mon cabinet et écouté.
+                    Mes patients se sentent en sécurité dans mon cabinet et écoutés.
                     J'ai à cœur de leur apporter de réels chemins de résolution à leur problématique,
                     par une écoute active et par l'exposition de différents points de vue sur la vie.<br/><br/>
 

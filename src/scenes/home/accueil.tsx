@@ -31,7 +31,7 @@ export default function Accueil() {
             <div className="flex xl:flex-row flex-col mt-20">
                 <div className="2xl:mr-32 xl:mr-40 xl:mb-0 mb-10">
                     <h2 className="text-4xl">
-                        Thérapeute à Strasbourg
+                        Thérapeute, conseillère conjugale à Strasbourg
                     </h2>
                     <h1 className="text-2xl mt-5">Prenons <span className="text-amber-700">vraiment</span> le temps d'en parler</h1>
                     
