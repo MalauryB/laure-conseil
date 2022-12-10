@@ -56,7 +56,7 @@ function ContactForm(){
             }
             console.log(templateParams);
             emailjs.send(
-                'gmail',
+                'service_99hjw8z',
                 'template_li5dbtp',
                 templateParams,
                 'user_azEOdhu0mi0nuNIMqjEW1'
@@ -136,7 +136,7 @@ function ContactForm(){
                     className="mt-10 text-xl"
                     onChange={formChange}
                     selectedValue={form.speedCall}>
-                    <Radio label="Maintenant" value="maintenant"/>
+                    <Radio label="Au plus vite" value="maintenant"/>
                     <Radio label="Plus tard" value="plustard"/>
                 </RadioGroup>
                 {form.speedCall === "maintenant" ? basicForm : specificForm}
