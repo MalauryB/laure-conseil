@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/laure-conseil/static/css/main.9572f742.css",
-    "main.js": "/laure-conseil/static/js/main.a712f8f7.js",
+    "main.js": "/laure-conseil/static/js/main.ff14c1a1.js",
     "static/js/787.f0bab596.chunk.js": "/laure-conseil/static/js/787.f0bab596.chunk.js",
     "index.html": "/laure-conseil/index.html",
     "main.9572f742.css.map": "/laure-conseil/static/css/main.9572f742.css.map",
-    "main.a712f8f7.js.map": "/laure-conseil/static/js/main.a712f8f7.js.map",
+    "main.ff14c1a1.js.map": "/laure-conseil/static/js/main.ff14c1a1.js.map",
     "787.f0bab596.chunk.js.map": "/laure-conseil/static/js/787.f0bab596.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9572f742.css",
-    "static/js/main.a712f8f7.js"
+    "static/js/main.ff14c1a1.js"
   ]
 }
