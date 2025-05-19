@@ -2,7 +2,7 @@
   "name": "laure-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://MalauryB.github.io/laure-conseil",
+  "homepage": ".",
   "dependencies": {
     "@blueprintjs/core": "^4.3.2",
     "@stitches/react": "^1.2.8",
