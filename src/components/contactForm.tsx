@@ -56,10 +56,10 @@ function ContactForm(){
             }
             console.log(templateParams);
             emailjs.send(
-                'service_99hjw8z',
-                'template_li5dbtp',
+                process.env.REACT_APP_EMAILJS_SERVICE_ID!,
+                process.env.REACT_APP_EMAILJS_TEMPLATE_ID!,
                 templateParams,
-                'user_azEOdhu0mi0nuNIMqjEW1'
+                process.env.REACT_APP_EMAILJS_USER_ID!
             )
             resetForm();
             infoForm.toggledForm();
